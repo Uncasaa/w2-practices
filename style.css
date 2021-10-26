@@ -60,17 +60,25 @@ section {
     background-color: red;
 }
 
-#nav {
+#bodyId {
     position: fixed;
     top: 0;
     right: -200px;
     width: 200px;
     height: 100vh;
-    z-index: 9;
+    z-index: 8;
 
     background-color: blue;
 }
 
 #nav.clicked {
     right: 0;
+}
+#bodyId {
+    z-index: 8;
+}
+
+#bodyId.clicked {
+    right: 0;
+    background-color: blueviolet;
 }

@@ -1,6 +1,6 @@
 function toggleClicked(event) {
     event.target.classList.toggle("clicked");
-    document.getElementById("nav").classList.toggle("clicked");
+    document.getElementById("bodyId").classList.toggle("clicked");
 };
 
 function loadEvent() {
@@ -12,3 +12,7 @@ function loadEvent() {
 
 window.addEventListener("load", loadEvent);
 
+/* function toggleClicked(event) {
+    document.getElementById("bodyID").classList.toggle("clicked");
+};
+ */
