@@ -87,6 +87,8 @@ header .randomDiv2 {
     height: 100vh;
     z-index: 9;
 
+    transition: right 400ms;
+
     background-color: blue;
 }
 
@@ -96,4 +98,12 @@ header .randomDiv2 {
 
 .randomDiv {
     display: inline;
+}
+
+
+nav#nav li:first-child {
+    background-color: green !important;
+}
+nav li.aboutLi {
+    background-color: rgb(224, 41, 224);
 }
