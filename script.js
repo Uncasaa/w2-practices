@@ -1,5 +1,5 @@
 function toggleClicked(event) {
-    event.target.classList.toggle("clicked");
+    // event.target.classList.toggle("clicked");
     document.getElementById("bodyId").classList.toggle("clicked");
 };
 
